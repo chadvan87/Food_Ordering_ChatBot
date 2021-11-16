@@ -13,8 +13,8 @@ I am using Python 3.9.7. Make sure to check the add python to path option when y
 Click on the "Code" button and select "Download Zip"
 ## Step 3: Install libraries
 You can use command prompt on windows or terminal on Mac or any IDE(ex: Visual Studio Code)
-Make sure you are in the path of the project and type :
-pip install -r requirements.txt
+Make sure you are in the path of the project and type : <br>
+pip install -r requirements.txt<br>
 It will install all the files you need.
 ## Step 4: Run the project
 Type in your terminal: python manage.py runserver 
