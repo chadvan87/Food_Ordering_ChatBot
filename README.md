@@ -19,8 +19,8 @@ pip install -r requirements.txt<br>
 It will install all the files you need.
 ## Step 4: Fix 2 setting problems (Important)
 ### 4.1 Set Django to path(if you haven't done it yet)
-Go to this link change [UserName] with your username <br>
-C:\Users\[UserName]\AppData\Roaming\Python\Python39\Scripts  <br>
+Go to this link change [YourUserName] with your username <br>
+C:\Users\YourUserName\AppData\Roaming\Python\Python39\Scripts  <br>
 Open Edit Environment Variables for your account <br>
 ![image](https://user-images.githubusercontent.com/89083229/142130964-51cef241-69b6-407e-84e3-4d7e516e2a77.png) <br>
 Choose the path and click edit and then add the C:\Users\[UserName]\AppData\Roaming\Python\Python39\Scripts <br>
