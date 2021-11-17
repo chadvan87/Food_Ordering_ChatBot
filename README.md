@@ -29,7 +29,7 @@ Click OK 2 times => And then you finished.
 If you are using python 3.x you will have this problem.Because they changed the name <br>
 Here is the picture of the problem.
 ![253989589_315021017128754_7650931696018456001_n](https://user-images.githubusercontent.com/89083229/142133290-1c116630-6c77-4503-87d2-a4bfd1282449.jpg)
-Now how to fix this just go to that file(compat.py) line 264 and change from:
+Now how to fix this just go to that file(compat.py) line 264 and change from: <br>
 time_func = time.clock() to time_func = time.time()
 Here is an answer from StackOverflow and you can follow it too: <br>
 https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8
@@ -39,10 +39,10 @@ Now we are ready to run the project
 ## Step 5: Run the project
 Type in your terminal:<br> python manage.py runserver <br>
 It will load for a while and said: <br>
-Starting development server at http://127.0.0.1:8000/
+Starting development server at http://127.0.0.1:8000/ <br>
 Go to that link and it will display a page like this<br>
 ![image](https://user-images.githubusercontent.com/89083229/141965894-5f58d8ce-5f6d-4f3b-8d95-43817a1e309e.png)
-Now you change the link to: http://127.0.0.1:8000/bot/
+Now you change the link to: http://127.0.0.1:8000/bot/ <br>
 And it will get into my chat bot:
 
 ![ww](https://user-images.githubusercontent.com/89083229/141966330-dfb7f1f2-11b6-4e1b-ac3b-67e20943d3bb.PNG)
