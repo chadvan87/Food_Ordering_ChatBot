@@ -30,7 +30,7 @@ If you are using python 3.x you will have this problem.Because they changed the 
 Here is the picture of the problem.
 ![253989589_315021017128754_7650931696018456001_n](https://user-images.githubusercontent.com/89083229/142133290-1c116630-6c77-4503-87d2-a4bfd1282449.jpg)
 Now how to fix this just go to that file(compat.py) line 264 and change from: <br>
-time_func = time.clock() to time_func = time.time()
+time_func = time.clock() to time_func = time.time() <br>
 Here is an answer from StackOverflow and you can follow it too: <br>
 https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8
 ![image](https://user-images.githubusercontent.com/89083229/142133607-765082f9-9fbb-422a-a736-21258659943e.png)
